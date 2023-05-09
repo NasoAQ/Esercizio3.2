@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(234,237,237);
+}
+
+p {
+    font-weight: bold;
+}
+
+header {
+    background-color: rgb(34,47,62);
+    
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#logoam {
+    height: 50px;
+    margin-left: 20px;
+}
+
+ul {
+    background-color: rgb(53,71,88);
+    color: white;
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+li {
+    margin-left: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin: 20px;
+}
+
+.specialp {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+
+#shop {
+    background-color: rgb(245,102,0);
+    padding: 5px;
+}
+
+#holiday {
+    background-image: url(assets/bg-image.png);
+    background-size: 95%;
+    height: 10vw;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#gifting {
+    background-color: white;
+}
+
+#gifting p {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.green {
+    color: rgb(63,146,161);
+    font-weight: bold;
+    font-size: 85%;
+}
+
+.box .green {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#anteprime {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imaging {
+    margin: 5px;
+    border-radius: 30px;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+#sect3 {
+    display: inline-block;
+}
+
+.box {
+    background-color: white;
+    display: inline-block;
+    margin-right: 30px;
+    width: 25% ;
+}
+
+.quattro {
+    padding: 0 1rem;
+}
+
+.box img {
+    width: 100%;
+    object-fit: cover;
+}
+
+h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.couple {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.minibox {
+    display: inline-block;
+    width: 40%;
+    position: relative;
+}
+
+.box .minibox p {
+    
+}
+
+.gaming {
+    width: 100%;
+}
+
+.centerp {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(34,47,62);
+    text-align: center;
+}
+
+#top {
+    background-color: rgb(53,71,88);
+    padding: 15px;
+}
+
+#logo_bottom {
+    height: 50px;
+    padding: 25px;
+}
+
+.sticky {
+    position: absolute;
+    right: -10px;
+    bottom: 0px;
+    width: 40px;
+    height: 40px;    
+}
