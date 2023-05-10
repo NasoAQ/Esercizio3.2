@@ -105,10 +105,16 @@ main {
 .box {
     background-color: white;
     display: inline-block;
-    margin-right: 30px;
-    width: 25% ;
+    width: 23% ;
 }
 
+.mr1 {
+    margin-right: 2.1rem;
+}
+
+.minibox p {
+    font-size: 12px;
+}
 .quattro {
     padding: 0 1rem;
 }
@@ -116,6 +122,7 @@ main {
 .box img {
     width: 100%;
     object-fit: cover;
+    aspect-ratio: 1/1;
 }
 
 h3 {
@@ -163,8 +170,8 @@ footer {
 
 .sticky {
     position: absolute;
-    right: -10px;
-    bottom: 0px;
+    right: -1px;
+    bottom: 13px;
     width: 40px;
     height: 40px;    
 }
